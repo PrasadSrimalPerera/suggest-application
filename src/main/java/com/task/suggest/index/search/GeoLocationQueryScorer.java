@@ -13,7 +13,7 @@ class GeoLocationQueryScorer implements QueryScorer<GeoLocation, IndexField.GeoI
 
     @Override
     public double calculateScore(GeoLocation geoLocation, IndexField.GeoIndexField geoIndexField) {
-        return 1/ (Math.sqrt(Math.pow(geoLocation.getLongitude() - geoIndexField.getValue().getLongitude(), 2) +
+        return 1.0 / (Math.sqrt(Math.pow(geoLocation.getLongitude() - geoIndexField.getValue().getLongitude(), 2) +
                 Math.pow(geoLocation.getLatitude() - geoIndexField.getValue().getLatitude(), 2)) + 1);
     }
 }

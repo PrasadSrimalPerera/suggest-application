@@ -10,6 +10,6 @@ import com.task.suggest.index.IndexField;
 class TermQueryScorer implements QueryScorer<String, IndexField.StringIndexField> {
     @Override
     public double calculateScore(String term1, IndexField.StringIndexField term2) {
-        return 1 / (Math.abs(term1.length() - term2.getValue().length()) + 1);
+        return 1.0 / (Math.abs(term1.length() - term2.getValue().length()) + 1);
     }
 }
