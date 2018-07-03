@@ -1,0 +1,172 @@
+2018-07-02 16:37:41.821 DEBUG 7346 --- [background-preinit] .h.v.m.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+2018-07-02 16:37:41.830 DEBUG 7346 --- [background-preinit] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2018-07-02 16:37:41.830 DEBUG 7346 --- [background-preinit] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2018-07-02 16:37:41.831 DEBUG 7346 --- [background-preinit] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2018-07-02 16:37:41.831 DEBUG 7346 --- [background-preinit] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2018-07-02 16:37:41.831 DEBUG 7346 --- [background-preinit] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2018-07-02 16:37:41.952  INFO 7346 --- [main] c.t.s.SuggestApplication                 : Starting SuggestApplication on prasad with PID 7346 (/home/prasad/Desktop/suggest-application/target/classes started by prasad in /home/prasad/Desktop/suggest-application)
+2018-07-02 16:37:41.953 DEBUG 7346 --- [main] c.t.s.SuggestApplication                 : Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-07-02 16:37:41.956  INFO 7346 --- [main] c.t.s.SuggestApplication                 : No active profile set, falling back to default profiles: default
+2018-07-02 16:37:43.948 DEBUG 7346 --- [main] o.h.v.i.e.resolver.TraversableResolvers  : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-07-02 16:37:43.949 DEBUG 7346 --- [main] .h.v.m.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+2018-07-02 16:37:43.957 DEBUG 7346 --- [main] o.h.v.i.e.resolver.TraversableResolvers  : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-07-02 16:37:43.958 DEBUG 7346 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-07-02 16:37:43.959 DEBUG 7346 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-07-02 16:37:43.959 DEBUG 7346 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2018-07-02 16:37:43.961 DEBUG 7346 --- [main] o.h.v.internal.xml.ValidationXmlParser   : Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-07-02 16:37:43.961 DEBUG 7346 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via user class loader
+2018-07-02 16:37:43.961 DEBUG 7346 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via TCCL
+2018-07-02 16:37:43.961 DEBUG 7346 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-07-02 16:37:43.962 DEBUG 7346 --- [main] o.h.v.internal.xml.ValidationXmlParser   : No META-INF/validation.xml found. Using annotation based configuration only.
+2018-07-02 16:37:43.966 DEBUG 7346 --- [main] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2018-07-02 16:37:43.966 DEBUG 7346 --- [main] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2018-07-02 16:37:43.967 DEBUG 7346 --- [main] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2018-07-02 16:37:43.967 DEBUG 7346 --- [main] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2018-07-02 16:37:43.967 DEBUG 7346 --- [main] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2018-07-02 16:37:44.720 DEBUG 7346 --- [main] c.t.s.l.SuggestIndexInitializerListener  : Index found at= index/index.ser loading the existing index
+2018-07-02 16:37:45.838  INFO 7346 --- [main] c.t.s.SuggestApplication                 : Started SuggestApplication in 4.45 seconds (JVM running for 4.922)
+2018-07-02 16:37:48.387 DEBUG 7346 --- [http-nio-8080-exec-1] c.t.s.controllers.SuggestController      : Suggest Request with query= London, latitude= null, longitude= null
+2018-07-02 16:43:52.500 DEBUG 7551 --- [background-preinit] .h.v.m.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+2018-07-02 16:43:52.509 DEBUG 7551 --- [background-preinit] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2018-07-02 16:43:52.510 DEBUG 7551 --- [background-preinit] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2018-07-02 16:43:52.510 DEBUG 7551 --- [background-preinit] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2018-07-02 16:43:52.510 DEBUG 7551 --- [background-preinit] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2018-07-02 16:43:52.510 DEBUG 7551 --- [background-preinit] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2018-07-02 16:43:52.594  INFO 7551 --- [main] c.t.s.SuggestApplication                 : Starting SuggestApplication on prasad with PID 7551 (/home/prasad/Desktop/suggest-application/target/classes started by prasad in /home/prasad/Desktop/suggest-application)
+2018-07-02 16:43:52.594 DEBUG 7551 --- [main] c.t.s.SuggestApplication                 : Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-07-02 16:43:52.595  INFO 7551 --- [main] c.t.s.SuggestApplication                 : No active profile set, falling back to default profiles: default
+2018-07-02 16:43:54.742 DEBUG 7551 --- [main] o.h.v.i.e.resolver.TraversableResolvers  : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-07-02 16:43:54.742 DEBUG 7551 --- [main] .h.v.m.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+2018-07-02 16:43:54.754 DEBUG 7551 --- [main] o.h.v.i.e.resolver.TraversableResolvers  : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-07-02 16:43:54.755 DEBUG 7551 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-07-02 16:43:54.757 DEBUG 7551 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-07-02 16:43:54.758 DEBUG 7551 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2018-07-02 16:43:54.759 DEBUG 7551 --- [main] o.h.v.internal.xml.ValidationXmlParser   : Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-07-02 16:43:54.760 DEBUG 7551 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via user class loader
+2018-07-02 16:43:54.760 DEBUG 7551 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via TCCL
+2018-07-02 16:43:54.760 DEBUG 7551 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-07-02 16:43:54.760 DEBUG 7551 --- [main] o.h.v.internal.xml.ValidationXmlParser   : No META-INF/validation.xml found. Using annotation based configuration only.
+2018-07-02 16:43:54.766 DEBUG 7551 --- [main] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2018-07-02 16:43:54.767 DEBUG 7551 --- [main] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2018-07-02 16:43:54.767 DEBUG 7551 --- [main] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2018-07-02 16:43:54.767 DEBUG 7551 --- [main] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2018-07-02 16:43:54.768 DEBUG 7551 --- [main] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2018-07-02 16:43:55.306 DEBUG 7551 --- [main] c.t.s.l.SuggestIndexInitializerListener  : Index found at= index/index.ser loading the existing index
+2018-07-02 16:43:56.195  INFO 7551 --- [main] c.t.s.SuggestApplication                 : Started SuggestApplication in 4.167 seconds (JVM running for 4.671)
+2018-07-02 16:43:59.029 DEBUG 7551 --- [http-nio-8080-exec-1] c.t.s.controllers.SuggestController      : Suggest Request with query= London, latitude= null, longitude= null
+2018-07-02 16:44:30.166 DEBUG 7551 --- [http-nio-8080-exec-2] c.t.s.controllers.SuggestController      : Suggest Request with query= dadaated, latitude= null, longitude= null
+2018-07-02 16:45:16.836 DEBUG 7551 --- [http-nio-8080-exec-4] c.t.s.controllers.SuggestController      : Suggest Request with query= er, latitude= 43.70011, longitude= -79.4163
+2018-07-02 16:45:23.582 DEBUG 7551 --- [http-nio-8080-exec-5] c.t.s.controllers.SuggestController      : Suggest Request with query= mon, latitude= 43.70011, longitude= -79.4163
+2018-07-02 16:46:05.071 DEBUG 7551 --- [http-nio-8080-exec-6] c.t.s.controllers.SuggestController      : Suggest Request with query= mon, latitude= 43.70011, longitude= -79.4163
+2018-07-02 16:48:09.066 DEBUG 7712 --- [background-preinit] .h.v.m.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+2018-07-02 16:48:09.077 DEBUG 7712 --- [background-preinit] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2018-07-02 16:48:09.078 DEBUG 7712 --- [background-preinit] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2018-07-02 16:48:09.078 DEBUG 7712 --- [background-preinit] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2018-07-02 16:48:09.078 DEBUG 7712 --- [background-preinit] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2018-07-02 16:48:09.078 DEBUG 7712 --- [background-preinit] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2018-07-02 16:48:09.235  INFO 7712 --- [main] c.t.s.SuggestApplication                 : Starting SuggestApplication on prasad with PID 7712 (/home/prasad/Desktop/suggest-application/target/classes started by prasad in /home/prasad/Desktop/suggest-application)
+2018-07-02 16:48:09.235 DEBUG 7712 --- [main] c.t.s.SuggestApplication                 : Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-07-02 16:48:09.236  INFO 7712 --- [main] c.t.s.SuggestApplication                 : No active profile set, falling back to default profiles: default
+2018-07-02 16:48:11.154 DEBUG 7712 --- [main] o.h.v.i.e.resolver.TraversableResolvers  : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-07-02 16:48:11.155 DEBUG 7712 --- [main] .h.v.m.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+2018-07-02 16:48:11.164 DEBUG 7712 --- [main] o.h.v.i.e.resolver.TraversableResolvers  : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-07-02 16:48:11.166 DEBUG 7712 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-07-02 16:48:11.167 DEBUG 7712 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-07-02 16:48:11.168 DEBUG 7712 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2018-07-02 16:48:11.170 DEBUG 7712 --- [main] o.h.v.internal.xml.ValidationXmlParser   : Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-07-02 16:48:11.170 DEBUG 7712 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via user class loader
+2018-07-02 16:48:11.170 DEBUG 7712 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via TCCL
+2018-07-02 16:48:11.171 DEBUG 7712 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-07-02 16:48:11.171 DEBUG 7712 --- [main] o.h.v.internal.xml.ValidationXmlParser   : No META-INF/validation.xml found. Using annotation based configuration only.
+2018-07-02 16:48:11.178 DEBUG 7712 --- [main] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2018-07-02 16:48:11.178 DEBUG 7712 --- [main] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2018-07-02 16:48:11.178 DEBUG 7712 --- [main] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2018-07-02 16:48:11.179 DEBUG 7712 --- [main] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2018-07-02 16:48:11.179 DEBUG 7712 --- [main] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2018-07-02 16:48:11.769 DEBUG 7712 --- [main] c.t.s.l.SuggestIndexInitializerListener  : Index found at= index/index.ser loading the existing index
+2018-07-02 16:48:12.673  INFO 7712 --- [main] c.t.s.SuggestApplication                 : Started SuggestApplication in 4.136 seconds (JVM running for 4.667)
+2018-07-02 16:48:15.874 DEBUG 7712 --- [http-nio-8080-exec-1] c.t.s.controllers.SuggestController      : Suggest Request with query= mon, latitude= 43.70011, longitude= -79.4163
+2018-07-02 16:48:15.915 DEBUG 7712 --- [http-nio-8080-exec-1] c.t.s.controllers.SuggestController      : Found 62 results for query= mon, latitude= 43.70011, longitude= -79.4163
+2018-07-02 16:48:19.158 DEBUG 7712 --- [http-nio-8080-exec-2] c.t.s.controllers.SuggestController      : Suggest Request with query= mon, latitude= 43.70011, longitude= -79.4163
+2018-07-02 16:48:19.168 DEBUG 7712 --- [http-nio-8080-exec-2] c.t.s.controllers.SuggestController      : Found 62 results for query= mon, latitude= 43.70011, longitude= -79.4163
+2018-07-02 19:41:22.646  INFO 12833 --- [main] com.task.suggest.SuggestApplication      : Starting SuggestApplication on prasad with PID 12833 (/home/prasad/Desktop/suggest-application/target/classes started by prasad in /home/prasad/Desktop/suggest-application)
+2018-07-02 19:41:22.650 DEBUG 12833 --- [main] com.task.suggest.SuggestApplication      : Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-07-02 19:41:22.653  INFO 12833 --- [main] com.task.suggest.SuggestApplication      : No active profile set, falling back to default profiles: default
+2018-07-02 19:41:25.148 DEBUG 12833 --- [main] o.h.v.i.e.resolver.TraversableResolvers  : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-07-02 19:41:25.148 DEBUG 12833 --- [main] .h.v.m.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+2018-07-02 19:41:25.153 DEBUG 12833 --- [main] o.h.v.i.e.resolver.TraversableResolvers  : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-07-02 19:41:25.154 DEBUG 12833 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-07-02 19:41:25.154 DEBUG 12833 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-07-02 19:41:25.155 DEBUG 12833 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2018-07-02 19:41:25.156 DEBUG 12833 --- [main] o.h.v.internal.xml.ValidationXmlParser   : Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-07-02 19:41:25.156 DEBUG 12833 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via user class loader
+2018-07-02 19:41:25.156 DEBUG 12833 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via TCCL
+2018-07-02 19:41:25.156 DEBUG 12833 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-07-02 19:41:25.156 DEBUG 12833 --- [main] o.h.v.internal.xml.ValidationXmlParser   : No META-INF/validation.xml found. Using annotation based configuration only.
+2018-07-02 19:41:25.161 DEBUG 12833 --- [main] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2018-07-02 19:41:25.161 DEBUG 12833 --- [main] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2018-07-02 19:41:25.161 DEBUG 12833 --- [main] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2018-07-02 19:41:25.161 DEBUG 12833 --- [main] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2018-07-02 19:41:25.162 DEBUG 12833 --- [main] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2018-07-02 19:41:25.790 DEBUG 12833 --- [main] c.t.s.l.SuggestIndexInitializerListener  : Index found at= index/index.ser loading the existing index
+2018-07-02 19:41:27.136  INFO 12833 --- [main] com.task.suggest.SuggestApplication      : Started SuggestApplication in 5.16 seconds (JVM running for 5.91)
+2018-07-02 19:42:24.854 DEBUG 12932 --- [background-preinit] .h.v.m.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+2018-07-02 19:42:24.864 DEBUG 12932 --- [background-preinit] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2018-07-02 19:42:24.865 DEBUG 12932 --- [background-preinit] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2018-07-02 19:42:24.865 DEBUG 12932 --- [background-preinit] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2018-07-02 19:42:24.865 DEBUG 12932 --- [background-preinit] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2018-07-02 19:42:24.865 DEBUG 12932 --- [background-preinit] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2018-07-02 19:42:24.910  INFO 12932 --- [main] com.task.suggest.SuggestApplication      : Starting SuggestApplication on prasad with PID 12932 (/home/prasad/Desktop/suggest-application/target/classes started by prasad in /home/prasad/Desktop/suggest-application)
+2018-07-02 19:42:24.911 DEBUG 12932 --- [main] com.task.suggest.SuggestApplication      : Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-07-02 19:42:24.912  INFO 12932 --- [main] com.task.suggest.SuggestApplication      : No active profile set, falling back to default profiles: default
+2018-07-02 19:42:27.052 DEBUG 12932 --- [main] o.h.v.i.e.resolver.TraversableResolvers  : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-07-02 19:42:27.053 DEBUG 12932 --- [main] .h.v.m.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+2018-07-02 19:42:27.059 DEBUG 12932 --- [main] o.h.v.i.e.resolver.TraversableResolvers  : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-07-02 19:42:27.060 DEBUG 12932 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-07-02 19:42:27.061 DEBUG 12932 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-07-02 19:42:27.062 DEBUG 12932 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2018-07-02 19:42:27.063 DEBUG 12932 --- [main] o.h.v.internal.xml.ValidationXmlParser   : Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-07-02 19:42:27.063 DEBUG 12932 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via user class loader
+2018-07-02 19:42:27.064 DEBUG 12932 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via TCCL
+2018-07-02 19:42:27.064 DEBUG 12932 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-07-02 19:42:27.064 DEBUG 12932 --- [main] o.h.v.internal.xml.ValidationXmlParser   : No META-INF/validation.xml found. Using annotation based configuration only.
+2018-07-02 19:42:27.068 DEBUG 12932 --- [main] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2018-07-02 19:42:27.069 DEBUG 12932 --- [main] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2018-07-02 19:42:27.069 DEBUG 12932 --- [main] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2018-07-02 19:42:27.069 DEBUG 12932 --- [main] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2018-07-02 19:42:27.069 DEBUG 12932 --- [main] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2018-07-02 19:42:27.665 DEBUG 12932 --- [main] c.t.s.l.SuggestIndexInitializerListener  : No index found! Creating new at: index/index.ser
+2018-07-02 19:42:28.365 DEBUG 12932 --- [main] c.t.s.l.SuggestIndexInitializerListener  : Retrieved 7237 SuggestDocument to index
+2018-07-02 19:42:28.497 DEBUG 12932 --- [main] c.t.s.l.SuggestIndexInitializerListener  : new Index built at: index/index.ser
+2018-07-02 19:42:29.745  INFO 12932 --- [main] com.task.suggest.SuggestApplication      : Started SuggestApplication in 5.392 seconds (JVM running for 6.097)
+2018-07-02 20:10:39.427 DEBUG 14085 --- [background-preinit] .h.v.m.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+2018-07-02 20:10:39.445 DEBUG 14085 --- [background-preinit] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2018-07-02 20:10:39.447 DEBUG 14085 --- [background-preinit] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2018-07-02 20:10:39.447 DEBUG 14085 --- [background-preinit] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2018-07-02 20:10:39.447 DEBUG 14085 --- [background-preinit] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2018-07-02 20:10:39.447 DEBUG 14085 --- [background-preinit] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2018-07-02 20:10:39.584  INFO 14085 --- [main] com.task.suggest.SuggestApplication      : Starting SuggestApplication on prasad with PID 14085 (/home/prasad/Desktop/suggest-application/target/classes started by prasad in /home/prasad/Desktop/suggest-application)
+2018-07-02 20:10:39.585 DEBUG 14085 --- [main] com.task.suggest.SuggestApplication      : Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-07-02 20:10:39.587  INFO 14085 --- [main] com.task.suggest.SuggestApplication      : No active profile set, falling back to default profiles: default
+2018-07-02 20:10:41.604 DEBUG 14085 --- [main] o.h.v.i.e.resolver.TraversableResolvers  : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-07-02 20:10:41.605 DEBUG 14085 --- [main] .h.v.m.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+2018-07-02 20:10:41.612 DEBUG 14085 --- [main] o.h.v.i.e.resolver.TraversableResolvers  : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-07-02 20:10:41.613 DEBUG 14085 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-07-02 20:10:41.613 DEBUG 14085 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-07-02 20:10:41.614 DEBUG 14085 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2018-07-02 20:10:41.615 DEBUG 14085 --- [main] o.h.v.internal.xml.ValidationXmlParser   : Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-07-02 20:10:41.615 DEBUG 14085 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via user class loader
+2018-07-02 20:10:41.615 DEBUG 14085 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via TCCL
+2018-07-02 20:10:41.616 DEBUG 14085 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-07-02 20:10:41.616 DEBUG 14085 --- [main] o.h.v.internal.xml.ValidationXmlParser   : No META-INF/validation.xml found. Using annotation based configuration only.
+2018-07-02 20:10:41.620 DEBUG 14085 --- [main] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2018-07-02 20:10:41.621 DEBUG 14085 --- [main] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2018-07-02 20:10:41.621 DEBUG 14085 --- [main] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2018-07-02 20:10:41.621 DEBUG 14085 --- [main] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2018-07-02 20:10:41.621 DEBUG 14085 --- [main] o.h.v.i.engine.ValidatorFactoryImpl      : HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2018-07-02 20:10:42.244 DEBUG 14085 --- [main] c.t.s.l.SuggestIndexInitializerListener  : Index found at= index/index.ser loading the existing index
+2018-07-02 20:10:43.068  INFO 14085 --- [main] com.task.suggest.SuggestApplication      : Started SuggestApplication in 4.125 seconds (JVM running for 4.682)
+2018-07-02 20:10:53.509 DEBUG 14085 --- [http-nio-8080-exec-1] c.t.s.controllers.SuggestController      : Suggest Request with query= dadaated, latitude= null, longitude= null
+2018-07-02 20:10:53.532 DEBUG 14085 --- [http-nio-8080-exec-1] c.t.s.controllers.SuggestController      : Found 0 results for query= dadaated, latitude= null, longitude= null
+2018-07-02 20:11:04.439 DEBUG 14085 --- [http-nio-8080-exec-2] c.t.s.controllers.SuggestController      : Suggest Request with query= mon, latitude= 43.70011, longitude= -79.4163
+2018-07-02 20:11:04.455 DEBUG 14085 --- [http-nio-8080-exec-2] c.t.s.controllers.SuggestController      : Found 62 results for query= mon, latitude= 43.70011, longitude= -79.4163
