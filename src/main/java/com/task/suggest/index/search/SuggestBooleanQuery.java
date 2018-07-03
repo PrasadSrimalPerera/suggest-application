@@ -44,7 +44,7 @@ public class SuggestBooleanQuery extends SuggestQuery {
         // For calculating the score, we combine all the query scores and take the avg
         return (queryScorer.calculateScore(this.mustQueryList, indexDocument) +
                 queryScorer.calculateScore(this.shouldQueryList, indexDocument)) /
-                (this.mustQueryList.size() + this.shouldQueryList.size() + 1);
+                (this.mustQueryList.size() + this.shouldQueryList.size());
     }
 
     public void addMustQuery(SuggestQuery suggestQuery) {
