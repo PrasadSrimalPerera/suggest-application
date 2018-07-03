@@ -13,7 +13,7 @@ mvn clean install -DskipTests (without tests)
 
 ## Build docker image
 
-docker build -t <suggest-application-directory>
+docker build -t suggest-application <suggest-application-directory>
 
 ## Run
 
@@ -67,4 +67,5 @@ q: query to autocomplete/suggest {For a query minimum length of 3}
       "score": 0.11970028486846136
     }
   ]
-}```
+}
+```
