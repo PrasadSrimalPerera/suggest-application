@@ -52,7 +52,7 @@ q: query to autocomplete/suggest {For a query minimum length of 3}
 
  curl -XGET "localhost:8080?q=mona&latitude=40.68729&longitude=-80.27145"
 
-{
+```json{
   "suggestions": [
     {
       "name": "Monaca, US",
@@ -67,4 +67,4 @@ q: query to autocomplete/suggest {For a query minimum length of 3}
       "score": 0.11970028486846136
     }
   ]
-}
+}```

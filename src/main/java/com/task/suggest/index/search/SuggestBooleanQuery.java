@@ -35,7 +35,9 @@ public class SuggestBooleanQuery extends SuggestQuery {
                 .map(suggestQuery -> Sets.newHashSet(suggestQuery.getDocs(suggestIndex)))
                 .collect(Collectors.toList());
         indexDocuments.addAll(resultList.get(0));
-        resultList.forEach(indexDocuments::retainAll);
+        // If this has more than one query, retain the matched documents for all
+        if (resultList.size() > 1)
+            resultList.forEach(indexDocuments::retainAll);
         return Lists.newArrayList(indexDocuments);
     }
 
