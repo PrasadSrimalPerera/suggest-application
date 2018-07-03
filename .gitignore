@@ -16,6 +16,8 @@
 *.iml
 *.ipr
 *.log
+*.log.*
+*.ser
 
 ### NetBeans ###
 /nbproject/private/
@@ -25,5 +27,3 @@
 /nbdist/
 /.nb-gradle/
 
-### index dir ###
-index
