@@ -8,14 +8,20 @@ An application to suggest cities in North America (names) for autocomplete/sugge
 
 Build with maven:
 
-mvn clean install (with tests)
+mvn clean install (with tests)\
 mvn clean install -DskipTests (without tests)
 
 ## Build docker image
 
-docker build -t suggest-application <suggest-application-directory>
+docker build -t suggest-application \<suggest-application-directory>
 
 ## Run
+
+Before running as a Spring Boot app, make sure you have following external directory/resources
+in place as in application.properties
+
+data.path=data/cities_canada-usa.tsv\
+index.path=index (directory only)
 
 java -jar target/suggest-application-0.0.1-SNAPSHOT.jar
 
