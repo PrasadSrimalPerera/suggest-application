@@ -25,6 +25,7 @@ import java.io.Serializable;
 import java.io.StringReader;
 import java.util.List;
 import java.util.Map;
+import java.util.Objects;
 import java.util.Set;
 import java.util.stream.Collectors;
 
@@ -144,8 +145,8 @@ public class SuggestIndex implements Serializable {
      * @param suggestToken input SuggestToken
      * @return List of IndexDocuments found
      */
-    public List<IndexDocument> get(SuggestToken suggestToken) {
-        return Lists.newArrayList(this.suggestTokenListMap.get(suggestToken));
+    public Set<IndexDocument> get(SuggestToken suggestToken) {
+        return this.suggestTokenListMap.get(suggestToken);
     }
 
     /**
