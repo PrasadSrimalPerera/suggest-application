@@ -26,7 +26,6 @@ import java.io.StringReader;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
-import java.util.function.Function;
 import java.util.stream.Collectors;
 
 
@@ -38,7 +37,7 @@ import java.util.stream.Collectors;
  */
 public class SuggestIndex implements Serializable {
     private static final long serialVersionUID = 6540716430610410417L;
-    private Map<SuggestToken, List<IndexDocument>> suggestTokenListMap;
+    private Map<SuggestToken, Set<IndexDocument>> suggestTokenListMap;
     private transient Analyzer analyzer;
     private transient Analyzer searchAnalyzer;
     private static transient Analyzer defaultAnalyzer = createAnalyzer();
@@ -126,7 +125,7 @@ public class SuggestIndex implements Serializable {
                         if (suggestTokenListMap.containsKey(suggestToken)) {
                             suggestTokenListMap.get(suggestToken).add(indexDocument);
                         } else {
-                            List<IndexDocument> suggestDocumentList = Lists.newArrayList();
+                            Set<IndexDocument> suggestDocumentList = Sets.newHashSet();
                             suggestDocumentList.add(indexDocument);
                             suggestTokenListMap.put(suggestToken, suggestDocumentList);
                         }
@@ -146,7 +145,7 @@ public class SuggestIndex implements Serializable {
      * @return List of IndexDocuments found
      */
     public List<IndexDocument> get(SuggestToken suggestToken) {
-        return this.suggestTokenListMap.get(suggestToken);
+        return Lists.newArrayList(this.suggestTokenListMap.get(suggestToken));
     }
 
     /**
